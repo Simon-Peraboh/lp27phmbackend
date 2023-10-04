@@ -21,7 +21,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import spc.com.rccgphmbackend.service.security.UserLoginInfoDetailService;
 
 @Configuration
-//@EnableWebSecurity
+@EnableWebSecurity
 @EnableMethodSecurity
 public class SecurityConfig {
 
